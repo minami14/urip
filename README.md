@@ -13,3 +13,8 @@ urip -a hostname:port # e.g. urip -a :8080
 ```bash
 go get github.com/minami14.com/urip
 ```
+
+## Docker
+```bash
+docker run -p 80:80 minami14/urip
+```
